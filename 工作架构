@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="OyZBSZ4xRvZhjeH_V3_-">
-    <mxGraphModel dx="791" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="546" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-4" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PF--3LqKI0C-5ZRTZwqR-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tcapi" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="新华三 光猫" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="驱动" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-6" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PF--3LqKI0C-5ZRTZwqR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="前端" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-19" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PF--3LqKI0C-5ZRTZwqR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=".asp网页" vertex="1">
+          <mxGeometry height="30" width="80" x="260" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="调用tcapi和脚本" vertex="1">
+          <mxGeometry height="30" width="110" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-20" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="470.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="init启动脚本" vertex="1">
+          <mxGeometry height="30" width="80" x="260" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="分区划定&lt;br&gt;功能初始化" vertex="1">
+          <mxGeometry height="22.5" width="110" x="340" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-22" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PF--3LqKI0C-5ZRTZwqR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tcapi节点上网" vertex="1">
+          <mxGeometry height="30" width="100" x="260" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PPPOE流程&lt;br&gt;VLAN控制" vertex="1">
+          <mxGeometry height="26.25" width="110" x="370" y="493.75" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-23" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PF--3LqKI0C-5ZRTZwqR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tr069和ubus信息上报流程" vertex="1">
+          <mxGeometry height="30" width="100" x="260" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-17" edge="1" parent="1" source="PF--3LqKI0C-5ZRTZwqR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PF--3LqKI0C-5ZRTZwqR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PF--3LqKI0C-5ZRTZwqR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新设备适配&lt;br&gt;地址和设备" vertex="1">
+          <mxGeometry height="30" width="80" x="260" y="625" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
