@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="g5Hyu_dUo0byiZfwZJFq">
+    <mxGraphModel dx="1172" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LymTycahEwT-NxxmBMkr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="弗浪" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-8" edge="1" parent="1" source="LymTycahEwT-NxxmBMkr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LymTycahEwT-NxxmBMkr-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MCU" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="仪表" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-6" edge="1" parent="1" source="LymTycahEwT-NxxmBMkr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LymTycahEwT-NxxmBMkr-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;" value="车辆" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-13" edge="1" parent="1" source="LymTycahEwT-NxxmBMkr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LymTycahEwT-NxxmBMkr-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SoC Linux" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="页面显示" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接受CAN消息" vertex="1">
+          <mxGeometry height="30" width="80" x="370" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="校验传输" vertex="1">
+          <mxGeometry height="30" width="80" x="360" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LymTycahEwT-NxxmBMkr-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="复杂操作" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="515" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
